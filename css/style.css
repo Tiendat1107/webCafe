@@ -1,0 +1,164 @@
+.container-fluid {
+    background: #fff;
+    color: black;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-right {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.logout {
+    color: black;
+    background-color:white;
+}
+
+.login-link {
+    text-decoration: none;
+}
+
+.logout-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.category-list {
+    width: 20%;
+    margin-right: 20px;
+}
+
+.category-list h2 {
+    font-size: 30px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.category-list h2 a {
+    font-size: 30px;
+    padding-top: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+ 
+}
+
+.item-style {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.card-item {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.card {
+    width: 23%;
+    margin-top: 30px;
+    height: 350px;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+}
+
+.shopping-bag {
+    width: 20%;
+}
+.nav-left {
+    align-items: center;
+    text-align: center;
+}
+ 
+.nav-left a {
+    text-decoration: none;
+    color: #333;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-left a i {
+    color: #333;
+    margin-left: 15px;
+}
+
+header .shopping {
+    position: relative;
+    text-align: right;
+}
+
+header .shopping img {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+header .shopping span {
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    padding: 3px 10px;
+}
+.logout-icon {
+    font-size: 15px;
+    color: black;
+}
+.logout {
+    margin-right: 10px;
+    background-color:white;
+}
+.logo_icon {
+    margin-right: 10px;
+}
+header .shopping {
+    margin-right: 15px;
+    position: relative;
+    text-align: right;
+}
+
+header .shopping img {
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+header .shopping span {
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    padding: 3px 8px;
+    font-size: 10px;
+}
+.logout-icon {
+    font-size: 14px;
+    color: black;
+}
+.logout {
+    background-color:white;
+}
+.logo_icon {
+    margin-left: 10px;
+}
